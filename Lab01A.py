@@ -1,0 +1,10 @@
+print('Enter your details\n'+'- '*22 )
+first_name = input("First name: ")
+last_name = input("Last name: ")
+age = int(input("Age: "))
+print("Date of birth: ")
+month = input("Month ? ")
+days = input("Days ? ")
+year = input("Year ? ")
+
+print(f'Greetings to {first_name} {last_name}, aged {age}, born on {month} {days}, {year}! ')
